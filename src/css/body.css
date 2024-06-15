@@ -1,0 +1,114 @@
+/*https://www.fronteditor.dev/gists/0bf72f23008d6695524d31f0cd56ac64/view*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  align-content: center;
+}
+
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 4rem;
+  /* font-style: normal; */
+  line-height: 1.2;
+  margin-top: 15rem;
+}
+
+h1 span {
+  color: #60e776;
+}
+
+p {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  margin-bottom: 4.5rem;
+}
+
+p span {
+  color: #60e776;
+}
+
+.p2 {
+  margin-top: 5rem;
+}
+
+a {
+  background-color: #dbba28;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+a:hover {
+  background-color: #d86c2e;
+}
+
+/* BG IMAGE */
+#bg-image {
+  position: absolute;
+  inset: 0;
+  background-image: url(https://images.pexels.com/photos/5498233/pexels-photo-5498233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  /* background-image: url("https://images.pexels.com/photos/5498024/pexels-photo-5498024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  /* background-image: url(https://images.pexels.com/photos/12340541/pexels-photo-12340541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+  /*background-image: url("https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .3;
+  z-index: -1;
+}
+
+/* ANIMATION */
+h1,
+p,
+.p2,
+a {
+  animation: appear 1s backwards;
+}
+
+h1 {
+  animation-delay: 0.2s;
+}
+
+p {
+  animation-delay: 0.8s;
+}
+
+.p2 {
+  animation-delay: 0.5s;
+}
+
+a {
+  animation-delay: 1.6s;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+}
+
+/* RESPONSIVE */
+@media (width < 40rem) {
+  html {
+    font-size: 70%;
+  }
+}
