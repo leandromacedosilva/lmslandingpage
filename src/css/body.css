@@ -1,6 +1,6 @@
 /*https://www.fronteditor.dev/gists/0bf72f23008d6695524d31f0cd56ac64/view*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
 
 * {
@@ -66,9 +66,9 @@ a:hover {
   /* background-image: url(https://images.pexels.com/photos/12340541/pexels-photo-12340541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
   /*background-image: url("https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  opacity: .3;
+  opacity: 0.3;
   z-index: -1;
 }
 
